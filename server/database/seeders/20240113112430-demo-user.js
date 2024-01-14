@@ -18,9 +18,9 @@ module.exports = {
       [
         {
           id: "1",
-          first_name: "Ralp",
-          last_name: "Doe 23",
-          email: "ralpr.yosores@exact-construct.ch",
+          first_name: "Wilber",
+          last_name: "Brister",
+          email: "student@example.com",
           password:
             "$2a$10$ENXyFytn/tsGbB.iLS/W2.sOEBGc9J2IyWa3.EnDOZV.ar0iMSCoW",
           organization_id: "1",
@@ -35,9 +35,9 @@ module.exports = {
         },
         {
           id: "2",
-          first_name: "Ralp",
-          last_name: "Yosores",
-          email: "ralpyosores@gmail.com",
+          first_name: "Bessie",
+          last_name: "Bessie",
+          email: "admin@example.com",
           password:
             "$2a$10$xKtDGYYIpBrQVhzlJqn0XuUzAcw6fUpDlcN6C4cXYl/0GXQqgNt/q",
           organization_id: "1",
