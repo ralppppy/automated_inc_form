@@ -1,0 +1,216 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .center { text-align: center; } .center p { margin: 0px !important;
+      font-size: 1.7em; } .body-container p { margin: 0px !important; font-size:
+      1.7em; } .signatures p { margin: 0px !important; font-size: 1.7em; } .box
+      { flex: 1; /* border: 1px solid #000; padding: 20px; box-sizing:
+      border-box; */ } .container { display: flex; /* background-color: red; */
+      } .align-items-center { align-items: center !important; }
+      .align-items-center { align-items: center !important; }
+      .justify-content-end { justify-content: flex-end; } .align-items-end {
+      align-items: flex-end; } .text-right { text-align: right; } .d-flex {
+      display: flex !important; } .w-100 { width: 100%; /* background-color:
+      red; */ } .box.middle { flex: 3; /* Make the middle box twice as wide as
+      the others */ } .body-container { margin-left: 5cm; margin-right: 5cm; }
+      .tab-paragraph { white-space: pre-line; /* Preserve line breaks and
+      whitespace */ font-family: monospace; /* Use a monospaced font for
+      consistent tab width */ margin-left: 20px; /* Adjust margin for overall
+      indentation */ position: relative; } .tab-paragraph::before { content:
+      "\00a0\00a0\00a0\00a0"; /* Insert four non-breaking spaces for a tab
+      character */ position: absolute; left: 0; } .mb { margin-bottom: 2rem
+      !important; } .mb-1 { margin-bottom: 4rem !important; } .line-text {
+      width: 100% !important; border-bottom: 1px solid black !important; }
+      .form-message { text-indent: 5em; } .flex-1 { flex: 1; } /* Specify the
+      paper size */ @page { size: A4; /* You can change it to Letter or other
+      standard paper sizes */ /* margin: 100cm; */ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box text-right">
+
+        <img src="data:image/jpeg;base64,{{image}}" width="150" class="logo" />
+      </div>
+      <div class="box middle center">
+        <p>Republic of the Philppines</p>
+        <p>
+          <strong><i>ZAMBOANGA PENINSULA POLYTECHNIC STATE UNIVERSITY</i></strong>
+        </p>
+        <p>Region IX, Western Mindanao</p>
+        <p>R.T Lim Boulevard Baliwasan, Zambaonga City</p>
+        <p>Telephone No. 955-4024 / 991-4012</p>
+      </div>
+      <div class="box">
+        <img src="data:image/jpeg;base64,{{image2}}" width="150" class="logo" />
+      </div>
+    </div>
+
+    <div class="body-container">
+      <hr
+        style="height: 5px; background-color: black; margin-top: 2em; margin-bottom: 2.5em"
+      />
+
+      <div class="d-flex justify-content-end w-100">
+        <div class="center">
+          <p>_______________</p>
+          <p>Date</p>
+        </div>
+      </div>
+
+      <div class="mb">
+        <p>The University Registrar</p>
+        <p>
+          <strong><i>ZAMBOANGA PENINSULA POLYTECHNIC STATE UNIVERSITY</i></strong>
+        </p>
+        <p>Zamboanga City</p>
+      </div>
+
+      <div class="mb-1">
+        <div class="mb">
+          <p>Sir/Madam,</p>
+        </div>
+        <div class="form-message">
+          <p>
+            I would like to apply for ( ) COMPLETION/REMOVAL examination in
+            <span class="line-text">{{subject}}</span>
+            Which I took during the
+            <span class="line-text">{{semester}}</span>
+            semester / summer
+            <span class="line-text">{{year1}}</span>-<span
+              class="line-text"
+            >{{year2}}</span>
+            with rating of
+            <span class="line-text">{{rating}}</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="d-flex mb-1">
+        <div class="flex-1">
+          <div class="signatures">
+            <p>I HEREBY CERTIFY that</p>
+            <p>__________________________</p>
+            <p>whose signature at the right has</p>
+            <p>Paid the required fees per OR</p>
+            <p>____________dated_________</p>
+            <p>________(3)_______________</p>
+            <div style="margin-left: 10rem">
+              <p>Cashier</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1"></div>
+        <div class="flex-1">
+          <div class="signatures">
+            <div class="mb">
+              <p>(1) Very truly yours,</p>
+            </div>
+            <p>__________________________</p>
+            <p style="font-size: 1.5em;">Student signagture over printed name
+              year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex mb">
+        <div class="flex-1">
+
+        </div>
+        <div class="flex-1"></div>
+        <div class="flex-1">
+          <div class="signatures">
+            <div class="mb">
+              <p><strong>APPROVED:</strong></p>
+            </div>
+
+            <p>
+              (2)
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                class="line-text"
+              ><strong>ARNEL H. LEE</strong></span>
+            </p>
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University
+              Registrar</p>
+            <p>By:_______________________</p>
+            <p
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Curriculum
+              in Charge</p>
+          </div>
+        </div>
+      </div>
+
+      <hr
+        style="
+          height: 5px;
+          background-color: black;
+          margin-top: 2.5em;
+          margin-bottom: 2.5em;
+        "
+      />
+
+      <div class="mb">
+        <p style="letter-spacing: 10px; text-align: center; font-size: 3em">
+          <strong>CERTIFICATION</strong>
+        </p>
+      </div>
+
+      <div class="form-message mb-1">
+        <p>
+          I HEREBY CERTIFY That Mr./Ms
+          <span class="line-text">{{full_name}}</span>
+          had taken/completed with the requirements ( ) REMOVAL EXAMINATION / (
+          ) INCOMPLETE GRADES under me and obtained the grade/rating of
+          ____________
+        </p>
+      </div>
+
+      <div class="d-flex mb-1">
+        <div class="flex-1"></div>
+        <div class="flex-1"></div>
+        <div class="flex-1">
+          <div class="signatures">
+            <p>(4)____________________________________</p>
+            <p>Professor/Instructor</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex mb-1">
+        <div class="flex-1">
+          <div class="signatures">
+            <p>(5)____________________________________</p>
+            <p>Dean, College of Arts & Social Sciences</p>
+          </div>
+        </div>
+        <div class="flex-1"></div>
+        <div class="flex-1">
+          <div class="signatures">
+            <p>(6)____________________________________</p>
+            <p>Director, Physical Education</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex mb-1">
+        <div class="flex-1">
+
+        </div>
+        <div class="flex-1"><div class="signatures">
+            <p>(7)______________________________</p>
+            <p>Dean, College of___________________</p>
+            <p>Dean, College of Technical Education</p>
+          </div></div>
+        <div class="flex-1">
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

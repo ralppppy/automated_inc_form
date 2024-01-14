@@ -1,0 +1,17 @@
+{
+  "name": "project-p",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "concurrently \"cd client && npm run dev\" \"cd server && npm run start\"",
+    "startDebug": "concurrently \"cd client && npm run start\" \"cd server && npm run debug\"",
+    "postinstall": "npm i && cd client && npm i --legacy-peer-deps && cd ../server && npm i --legacy-peer-deps && cd ../"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "react-query": "^3.39.3"
+  }
+}
