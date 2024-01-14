@@ -36,12 +36,12 @@ module.exports = {
         {
           id: "2",
           first_name: "Bessie",
-          last_name: "Bessie",
+          last_name: "Ontiveros",
           email: "admin@example.com",
           password:
             "$2a$10$xKtDGYYIpBrQVhzlJqn0XuUzAcw6fUpDlcN6C4cXYl/0GXQqgNt/q",
           organization_id: "1",
-          is_student: "1",
+          is_student: "0",
           is_active: "1",
           verification_token: null,
           reset_password_token: null,
